@@ -11,8 +11,8 @@ $('a').click(function(){
 }); */
 
 // metodo 2
-/* var rileva=false;
-$('a').click(function(){
+/*  var rileva=false;
+$('.header-right>a').click(function(){
     if(rileva == true){
         $('.hamburger-menu').show('slow');
         rileva=false;
@@ -23,6 +23,16 @@ $('a').click(function(){
 }); */
 
 // metodo 3
-$("a").click(function(){
+/*  $(".header-right>a").click(function(){
     $(".hamburger-menu").toggle(400);
-  });
+});  */
+
+//apri
+$('.header-right>a').click(function(){
+    $('.hamburger-menu').show('slow');
+})
+$('.close').click(function(){
+    $('.hamburger-menu').hide('slow');
+})
+
+
