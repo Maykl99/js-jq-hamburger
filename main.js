@@ -19,8 +19,8 @@ $('.close').click(function(){
 
 // metodo 3
 /* $('.header-right>a').click(function(){
-    esegui.addClass('active',1000);
+    esegui.addClass('active');
 });
 $('.close').click(function(){
-    esegui.removeClass('active',1000);
+    esegui.removeClass('active');
 }); */
