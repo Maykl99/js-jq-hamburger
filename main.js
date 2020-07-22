@@ -1,3 +1,6 @@
+/* Hamburger menu:
+mostrare / nascondere il menu principale */
+
 var esegui=$('.hamburger-menu');
 
 //metodo 1
