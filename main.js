@@ -17,5 +17,10 @@ $('.close').click(function(){
     esegui.fadeOut(500);
 });
 
-
-
+// metodo 3
+/* $('.header-right>a').click(function(){
+    esegui.addClass('active',1000);
+});
+$('.close').click(function(){
+    esegui.removeClass('active',1000);
+}); */
