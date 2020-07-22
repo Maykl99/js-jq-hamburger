@@ -23,4 +23,6 @@ $('a').click(function(){
 }); */
 
 // metodo 3
-
+$("a").click(function(){
+    $(".hamburger-menu").toggle(400);
+  });
