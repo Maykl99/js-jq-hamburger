@@ -27,12 +27,15 @@ $('.header-right>a').click(function(){
     $(".hamburger-menu").toggle(400);
 });  */
 
+var esegui=$('.hamburger-menu');
+
 //apri
 $('.header-right>a').click(function(){
-    $('.hamburger-menu').show('slow');
+    esegui.show('slow');
 })
 $('.close').click(function(){
-    $('.hamburger-menu').hide('slow');
+    esegui.hide('slow');
 })
+
 
 
